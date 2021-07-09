@@ -1,32 +1,38 @@
-name: <name here>
-date: <date here>
+name: Lynijah
+date: 07,08,2021
 
 1 - What is output? What is an example of an output device?
-
+Output is what is given out, like when you send a text. Its output from your device.
 
 2 - What is input? What is an example of an input device?
+Input is what comes in, like when you speak into a microphone, youre bringing sound into your device to be transmitted out. Like when you're on calls and things.
 
 
 3 - What function do we use to output to the user?
-
+print
 
 4 - What function do we use to get input to the user?
-
+input prompt
 
 5 - What is the argument that input takes? Why is it important?
+It takes a string and whatever is in there unless you cast. It's important because It gives the user more freedom to say whatever because a string can literally be anything.
 
 
 6 - What data type does input return? What can we do to get different types of data?
 
+str but we can cast it to int or float
 
 7 - Give an example of casting input to an integer.
-
+int(input("BLANK"))
 
 8 - When might casting input from the user cause the program to crash?
+When you cast to int but the user puts a string
 
 
 9 - Can you use casting whenever you want?
-
+yes
 
 10 - How might you lose information if you cast to an integer, instead of a float?
+
+If it was a decimal, you no longer have the decimal just the whole number. so 14.3029 will just be 14 
 
